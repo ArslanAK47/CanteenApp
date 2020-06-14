@@ -7,43 +7,7 @@
     android:background="#6B9080">
 
     <Button
-        android:id="@+id/view_canteen_btn"
-        android:layout_width="133dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="127dp"
-        android:layout_marginRight="127dp"
-        android:layout_marginBottom="427dp"
-        android:background="#F6FFF8"
-        android:text="Manage Canteen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/delete_canteen_btn"
-        android:layout_width="133dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="131dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="331dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginRight="132dp"
-        android:layout_marginBottom="352dp"
-        android:background="#F6FFF8"
-        android:text="Manage Balance"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.782"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/add_canteen_btn"
+        android:id="@+id/add_balance_btn_admin"
         android:layout_width="133dp"
         android:layout_height="50dp"
         android:layout_marginStart="137dp"
@@ -53,7 +17,24 @@
         android:layout_marginRight="127dp"
         android:layout_marginBottom="501dp"
         android:background="#F6FFF8"
-        android:text="Manage Student"
+        android:text="Add Balance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/withdraw_from_student_btn_admin"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="427dp"
+        android:background="#F6FFF8"
+        android:text="Withdraw Student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,10 +50,30 @@
         android:layout_marginEnd="104dp"
         android:layout_marginRight="104dp"
         android:layout_marginBottom="613dp"
-        android:text="Admin Menu"
+        android:text="Manage Balance"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/withdraw_from_canteen_btn_admin"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="352dp"
+        android:background="#F6FFF8"
+        android:text="Withdraw Canteen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
