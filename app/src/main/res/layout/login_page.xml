@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A1E3EC">
+    android:background="#6B9080">
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/admin_login_password_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -22,10 +22,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/admin_login_username_btn" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/admin_login_username_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -37,13 +37,13 @@
         android:ems="10"
         android:hint="User Name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/admin_login_password_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/admin_login_btn"
         android:layout_width="138dp"
         android:layout_height="47dp"
         android:layout_marginStart="136dp"
@@ -52,13 +52,13 @@
         android:layout_marginEnd="137dp"
         android:layout_marginRight="137dp"
         android:layout_marginBottom="277dp"
-        android:background="#A1E3EC"
+        android:background="#F6FFF8"
         android:shadowColor="#FFFFFF"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/admin_login_password_btn" />
 
     <TextView
         android:id="@+id/textView2"
@@ -72,7 +72,7 @@
         android:layout_marginBottom="116dp"
         android:text="Admin Login"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/admin_login_username_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
