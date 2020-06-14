@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="#6b9080"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_wave"
-        tools:ignore="VectorDrawableCompat"
-        tools:layout_editor_absoluteY="446dp" />
+        tools:ignore="VectorDrawableCompat" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -29,7 +29,7 @@
         app:srcCompat="@drawable/new_logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Adminbt"
         android:layout_width="115dp"
         android:layout_height="56dp"
         android:layout_marginTop="56dp"
@@ -38,10 +38,9 @@
         android:text="ADMIN"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button2"
