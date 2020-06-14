@@ -2,7 +2,7 @@ package com.example.canteenapp
 
 class Login
 {
-    private val _userName="TahaMughal";
+    var Management: String? = "Canteen Management"
     private val _password="12345";
 
 }
